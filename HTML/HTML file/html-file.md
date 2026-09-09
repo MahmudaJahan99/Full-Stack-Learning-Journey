@@ -186,27 +186,31 @@ For example:
 
 Here are some useful character references:
 
-| Character | Entity | Meaning               |
-| --------- | ------ | --------------------- |
-| <         | &lt;   | Less-than             |
-| >         | &gt;   | Greater-than          |
-| &         | &amp;  | Ampersand             |
-| "         | &quot; | Double quotation mark |
-| '         | &apos; | Apostrophe            |
-| ©         | &copy; | Copyright             |
-| ®         | &reg;  | Registered trademark  |
-| ```&nbsp;```    | ```&nbsp;``` | Non-breaking space    |
+| Character | Entity   | Meaning               |
+| --------- | -------- | --------------------- |
+| <         | &lt;     | Less-than             |
+| >         | &gt;     | Greater-than          |
+| &         | &amp;    | Ampersand             |
+| "         | &quot;   | Double quotation mark |
+| '         | &apos;   | Apostrophe            |
+| ©         | &copy;   | Copyright             |
+| ®         | &reg;    | Registered trademark  |
+| `&nbsp;`  | `&nbsp;` | Non-breaking space    |
 
 ### Entity structure
 
 HTML character references commonly follow this pattern:
 
-& + name + ;
+`& + name + ;`
 
 For example:
 
-```html
-&amp; │ ││ │ │└── semicolon │ └── entity name └── starts with &
+```
+&amp;
+│  ││
+│  │└── semicolon
+│  └── entity name
+└── starts with &
 ```
 
 Some can also use a numeric form:
@@ -367,56 +371,39 @@ Let's examine a small HTML document:
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>My First Page</title>
-    </head>
+  <head>
+    <title>My First Page</title>
+  </head>
 
-    <body>
-        <!-- Main heading -->
-        <h1 class="title">Hello, World!</h1>
+  <body>
+    <!-- Main heading -->
+    <h1 class="title">Hello, World!</h1>
 
-        <p>
-            HTML is <strong>fun</strong> &amp; powerful.
-        </p>
+    <p>HTML is <strong>fun</strong> &amp; powerful.</p>
 
-        <p>5 &lt; 10</p>
-    </body>
-
+    <p>5 &lt; 10</p>
+  </body>
 </html>
 ```
 
 ```html
 <!DOCTYPE html>
 
-       │
-       └── Document declaration
+│ └── Document declaration
 
 <html>
-  │
-  └── HTML element
+  │ └── HTML element
 
-<h1 class="title">
-    │       │
-    │       └── Attribute
-    │
-    └── Tag
+  <h1 class="title">
+    │ │ │ └── Attribute │ └── Tag
 
-<!-- Main heading -->
+    <!-- Main heading -->
 
-       │
-       └── Comment
+    │ └── Comment
 
-<strong>fun</strong>
-│ │
-│ └── Content
-│
-└── Element
-
-&amp;
-│
-└── HTML entity
-
-Whitespace / indentation
-│
-└── Makes source code easier to read
+    <strong>fun</strong>
+    │ │ │ └── Content │ └── Element &amp; │ └── HTML entity Whitespace /
+    indentation │ └── Makes source code easier to read
+  </h1>
+</html>
 ```
