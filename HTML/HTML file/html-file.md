@@ -259,7 +259,7 @@ They can **temporarily disable** a piece of markup during development.
 -->
 ```
 
-**Important: comments are not secret**
+**🚨 Important: comments are not secret**
 
 HTML comments are sent to the browser as part of the HTML source Therefore, don't put sensitive information inside comments.
 
@@ -349,7 +349,7 @@ Whitespace therefore **improves code readability and maintainability**, even whe
 
 ### Whitespace inside text
 
-There are situations where whitespace does matter. For example, the **<pre>** element preserves whitespace and line breaks:
+There are situations where whitespace does matter. For example, the <pre> element preserves whitespace and line breaks:
 
 ```html
 <pre>
