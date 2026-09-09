@@ -3,9 +3,6 @@
 What actually happens when you type a website address into your browser? A simplified version looks like this:
 
 ```
-```
-
-```
               You
                │
                │ Enter URL
@@ -33,9 +30,6 @@ What actually happens when you type a website address into your browser? A simpl
 There are several concepts involved in this process:
 
 ```
-```
-
-```
 How the Web Works
 │
 ├── HTTP
@@ -53,9 +47,6 @@ How the Web Works
 **HTTP** stands for **HyperText Transfer Protocol** HTTP is a protocol used for communication between a **client** and a **server** on the web. In simpler terms:
 
 > HTTP defines how requests and responses are exchanged between web clients and servers.
-
-```
-```
 
 ```
 CLIENT                              SERVER
@@ -76,16 +67,11 @@ CLIENT                              SERVER
    Display page                         │
 ```
 
----
-
 ## HTTP Request
 
 When your browser wants something from a server, it sends an **HTTP request**.
 
 For example:
-
-```
-```
 
 ```
 GET /index.html HTTP/1.1
@@ -99,17 +85,11 @@ The server processes the request and sends back an **HTTP response**.
 For example:
 
 ```
-```
-
-```
 HTTP/1.1 200 OK
 Content-Type: text/html
 ```
 
 The response can contain the requested HTML.
-
-```
-```
 
 ```
 <!DOCTYPE html>
@@ -130,13 +110,13 @@ HTTP defines different methods for communicating intent.
 
 Some common ones are:
 
-| MethodCommon purpose |                       |
-| -------------------- | --------------------- |
-| `GET`                | Retrieve data         |
-| `POST`               | Send/create data      |
-| `PUT`                | Replace data          |
-| `PATCH`              | Partially update data |
-| `DELETE`             | Delete data           |
+| Method   | Common purpose        |
+| -------- | --------------------- |
+| `GET`    | Retrieve data         |
+| `POST`   | Send/create data      |
+| `PUT`    | Replace data          |
+| `PATCH`  | Partially update data |
+| `DELETE` | Delete data           |
 
 > **HTTP is the communication protocol that allows clients and servers to exchange information on the web.**
 
@@ -149,9 +129,6 @@ A **domain name** is the human-readable address used to access a website.
 Examples:
 
 ```
-```
-
-```
 google.com
 github.com
 roadmap.sh
@@ -161,16 +138,10 @@ example.com
 Computers communicate using IP addresses, which look something like:
 
 ```
-```
-
-```
 142.250.72.14
 ```
 
 Remembering IP addresses for every website would be inconvenient. Instead, we use domain names.
-
-```
-```
 
 ```
 Human
@@ -196,16 +167,10 @@ So a domain name acts as a **human-friendly name for a network destination**.
 Consider:
 
 ```
-```
-
-```
 www.example.com
 ```
 
 It can be broken down into:
-
-```
-```
 
 ```
 www      . example . com
@@ -223,12 +188,7 @@ www      . example . com
 
 A website needs somewhere to **live** so that people can access it over the Internet. This is where **web hosting** comes in.
 
-Hosting is the service of providing the infrastructure needed to store and serve a website or web application.
-
-A hosting server provides an environment.
-
-```
-```
+> Hosting is the service of providing the infrastructure needed to store and serve a website or web application. A hosting server provides an environment.
 
 ```
              INTERNET
@@ -262,9 +222,6 @@ A hosting server provides an environment.
 For example:
 
 ```
-```
-
-```
 example.com
      │
      │ DNS lookup
@@ -279,9 +236,6 @@ Without DNS, we would frequently need to remember IP addresses instead of domain
 **DNS as the Internet's phonebook**
 
 ## A simplified website request
-
-```
-```
 
 ```
 1. Browser receives:
@@ -311,26 +265,23 @@ Without DNS, we would frequently need to remember IP addresses instead of domain
 
 A **web browser** is software used to access and interact with resources on the web. Examples include:
 
--  Google Chrome 
--  Mozilla Firefox 
--  Microsoft Edge 
--  Safari 
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+- Safari
 
 A browser does much more than simply "display websites." It:
 
-1.  Sends requests to servers. 
-2.  Receives resources. 
-3.  Parses HTML. 
-4.  Parses CSS. 
-5.  Executes JavaScript. 
-6.  Builds internal representations of the page. 
-7.  Calculates layout. 
-8.  Renders the result on the screen. 
+1.  Sends requests to servers.
+2.  Receives resources.
+3.  Parses HTML.
+4.  Parses CSS.
+5.  Executes JavaScript.
+6.  Builds internal representations of the page.
+7.  Calculates layout.
+8.  Renders the result on the screen.
 
 A simplified picture:
-
-```
-```
 
 ```
              Web Server
@@ -360,27 +311,24 @@ A simplified picture:
 
 **SEO** stands for **Search Engine Optimization**
 
-SEO is the practice of improving a website so that search engines can better **discover, understand, and present** its content to users.
+> SEO is the practice of improving a website so that search engines can better **discover, understand, and present** its content to users.
 
 SEO can involve:
 
--  Content quality 
--  Page structure 
--  Semantic HTML 
--  Page performance 
--  Mobile friendliness 
--  Links 
--  Metadata 
--  Accessibility 
--  Search engine crawling 
--  Website authority 
+- Content quality
+- Page structure
+- Semantic HTML
+- Page performance
+- Mobile friendliness
+- Links
+- Metadata
+- Accessibility
+- Search engine crawling
+- Website authority
 
 ---
 
 # 🔄 Putting Everything Together
-
-```
-```
 
 ```
                      YOU
@@ -428,5 +376,3 @@ SEO can involve:
 ```
 
 And somewhere in this picture, SEO helps search engines discover and understand the content of your website.
-
----
