@@ -1,6 +1,6 @@
 # Creating First HTML File
 
-An HTML document is simply a text file containing HTML markup. The file normally uses the **.html** extension.
+> An HTML document is simply a text file containing HTML markup. The file normally uses the **.html** extension.
 
 For example:
 
@@ -49,14 +49,14 @@ Together, the opening tag, content, and closing tag form an HTML element:
 
 **Tag** - A tag is the markup itself.
 
-```html
-<h1></h1>
+```
+<h1>
 ```
 
 or:
 
-```html
-    </h1>
+```
+</h1>
 ```
 
 **Element** - An element consists of the complete structure.
@@ -195,7 +195,7 @@ Here are some useful character references:
 | '         | &apos; | Apostrophe            |
 | ©         | &copy; | Copyright             |
 | ®         | &reg;  | Registered trademark  |
-| &nbsp;    | &nbsp; | Non-breaking space    |
+| ```&nbsp;```    | ```&nbsp;``` | Non-breaking space    |
 
 ### Entity structure
 
