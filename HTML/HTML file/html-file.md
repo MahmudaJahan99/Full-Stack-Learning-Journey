@@ -349,7 +349,7 @@ Whitespace therefore **improves code readability and maintainability**, even whe
 
 ### Whitespace inside text
 
-There are situations where whitespace does matter. For example, the <pre> element preserves whitespace and line breaks:
+There are situations where whitespace does matter. For example, the `<pre>` element preserves whitespace and line breaks:
 
 ```html
 <pre>
@@ -359,7 +359,7 @@ Hello
 </pre>
 ```
 
-The browser preserves the formatting inside <pre>.
+The browser preserves the formatting inside `<pre>`.
 
 ---
 
