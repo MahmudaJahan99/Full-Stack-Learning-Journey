@@ -386,24 +386,36 @@ Let's examine a small HTML document:
 </html>
 ```
 
-```html
+```
 <!DOCTYPE html>
-
-│ └── Document declaration
+       │
+       └── Document declaration
 
 <html>
-  │ └── HTML element
+  │
+  └── HTML element
 
-  <h1 class="title">
-    │ │ │ └── Attribute │ └── Tag
+<h1 class="title">
+    │       │
+    │       └── Attribute
+    │
+    └── Tag
 
-    <!-- Main heading -->
+<!-- Main heading -->
+       │
+       └── Comment
 
-    │ └── Comment
+<strong>fun</strong>
+    │       │
+    │       └── Content
+    │
+    └── Element
 
-    <strong>fun</strong>
-    │ │ │ └── Content │ └── Element &amp; │ └── HTML entity Whitespace /
-    indentation │ └── Makes source code easier to read
-  </h1>
-</html>
+&amp;
+  │
+  └── HTML entity
+
+Whitespace / indentation
+       │
+       └── Makes source code easier to read
 ```
