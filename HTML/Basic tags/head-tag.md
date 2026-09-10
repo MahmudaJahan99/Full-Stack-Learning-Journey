@@ -1,4 +1,4 @@
-# 3. `<head>`
+# `<head>`
 
 The `<head>` element contains **metadata and other information about the HTML document**. The contents of `<head>` generally **aren't displayed** as normal webpage content.
 

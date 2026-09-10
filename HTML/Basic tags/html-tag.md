@@ -1,4 +1,4 @@
-# 2. `<html>`
+# `<html>`
 
 The `<html>` element is the **root element** of an HTML document. Everything except the DOCTYPE declaration belongs inside it.
 

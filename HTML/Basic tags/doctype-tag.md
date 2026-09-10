@@ -1,4 +1,4 @@
-# 1. <!DOCTYPE>
+# <!DOCTYPE>
 
 This is called the **DOCTYPE declaration**. It tells the browser which HTML standard the document is intended to follow.
 
