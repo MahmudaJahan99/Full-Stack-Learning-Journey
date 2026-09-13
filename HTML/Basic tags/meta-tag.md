@@ -2,13 +2,13 @@
 
 The `<meta>` element provides metadata about the HTML document. It doesn't contain visible page content and doesn't require a closing tag.
 
-"Metadata" simply means data about data.
+> "Metadata" simply means data about data.
 
 ## Character Encoding
 
 This specifies the document's character encoding. Character encoding defines how those characters are represented digitally.
 
-What is character encoding?
+### What is character encoding?
 
 Computers store information as numbers/bits, but text contains characters such as:
 
@@ -35,7 +35,7 @@ This helps the browser correctly interpret the characters in documents.
 
 Websites are viewed on many different devices like, desktop, tablet, and phone. The viewport is essentially the **area of the webpage that is visible to the user**. This meta declaration tells the browser how to treat the page's viewport on different devices.
 
-```
+```text
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                                |                    |
                                |                    |
@@ -49,12 +49,15 @@ Websites are viewed on many different devices like, desktop, tablet, and phone. 
 
 The `<meta>` element can provide different kinds of metadata. `<meta />` isn't one specific piece of information. It is a general element used to provide metadata in different forms.
 
-````html
+Example
+
+```html
 <meta name="description" content="A personal portfolio website." />
 ```
 
-This provides a description of the page. Another example:
+This provides a description of the page.
 
+Another example:
 
 ```html
 <meta name="author" content="Jane" />

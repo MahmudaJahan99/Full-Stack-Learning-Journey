@@ -14,9 +14,7 @@ For example, imagine a profile card:
 └─────────────────────────────────┘
 ```
 
-The browser needs a way to understand that all of this content belongs to one particular group.
-
-HTML provides general-purpose grouping elements for this:
+The browser needs a way to understand that all of this content belongs to one particular group. HTML provides general-purpose grouping elements for this.
 
 ```text
 Grouping Text
@@ -26,18 +24,16 @@ Grouping Text
       └── <span> → Inline container
 ```
 
-The two elements are:
+The two elements are -
 
 - `<div>` — groups larger/block-level pieces of content
 - `<span>` — groups a small piece of content within a line
 
 ---
 
-# `<div>`
+## `<div>`
 
-`<div>` is a **generic block-level container**. The name comes from **division**. It doesn't tell the browser that its contents are a heading, article, navigation, or paragraph. Instead, it simply says:
-
-> "These elements belong together as a group."
+`<div>` is a **generic block-level container**. The name comes from **division**. It doesn't tell the browser that its contents are a heading, article, navigation, or paragraph. Instead, it simply says that some elements belong together as a group.
 
 Example:
 
@@ -48,11 +44,11 @@ Example:
 </div>
 ```
 
-**_`<div>` Is a Block-Level Element_**
+> `<div>` Is a Block-Level Element
 
 By default, `<div>` behaves as a **block-level element**. A block-level element generally starts on a new line and occupies the available width.
 
-For example:
+Example:
 
 ```html
 <div>First group</div>
@@ -76,7 +72,7 @@ Conceptually:
 
 ---
 
-# `<span>`
+## `<span>`
 
 `<span>` is also a generic container, but unlike `<div>`, it is an **inline-level element** by default. It is commonly used to group or identify a small piece of text **within a line**.
 
@@ -94,9 +90,7 @@ I am learning HTML.
             <span>
 ```
 
----
-
-## Why Do We Need `<span>`?
+### Why Do We Need `<span>`?
 
 Suppose we want to give only the word "JavaScript" a special style.
 
@@ -116,7 +110,7 @@ span {
 
 ---
 
-# `<div>` vs `<span>`
+## `<div>` vs `<span>`
 
 This is one of the most important comparisons in this node.
 

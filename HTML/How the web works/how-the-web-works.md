@@ -1,9 +1,9 @@
 # How the Web Works
 
-What actually happens when you type a website address into your browser? A simplified version looks like this:
+What actually happens when we type a website address into our browser? A simplified version looks like this:
 
 ```
-              You
+              User
                │
                │ Enter URL
                ▼
@@ -42,13 +42,13 @@ How the Web Works
 
 ---
 
-# 1. What is HTTP?
+## 1. What is HTTP?
 
-**HTTP** stands for **HyperText Transfer Protocol** HTTP is a protocol used for communication between a **client** and a **server** on the web. In simpler terms:
+**HTTP** stands for **HyperText Transfer Protocol** HTTP is a protocol used for communication between a **client** and a **server** on the web.
 
 > HTTP defines how requests and responses are exchanged between web clients and servers.
 
-```
+```text
 CLIENT                              SERVER
 
 ┌─────────────┐                  ┌─────────────┐
@@ -71,25 +71,23 @@ CLIENT                              SERVER
 
 When your browser wants something from a server, it sends an **HTTP request**.
 
-For example:
+Example:
 
-```
+```text
 GET /index.html HTTP/1.1
 Host: example.com
 ```
 
-## HTTP Response
+### HTTP Response
 
 The server processes the request and sends back an **HTTP response**.
 
-For example:
-
-```
+```text
 HTTP/1.1 200 OK
 Content-Type: text/html
 ```
 
-The response can contain the requested HTML.
+The response can contain the requested HTML. The browser then processes the response and renders the page.
 
 ```
 <!DOCTYPE html>
@@ -100,15 +98,11 @@ The response can contain the requested HTML.
 </html>
 ```
 
-The browser then processes the response and renders the page.
-
 ---
 
-## HTTP Methods
+### HTTP Methods
 
-HTTP defines different methods for communicating intent.
-
-Some common ones are:
+HTTP defines different methods for communicating intent. Some common ones are:
 
 | Method   | Common purpose        |
 | -------- | --------------------- |
@@ -122,7 +116,7 @@ Some common ones are:
 
 ---
 
-# 2. Domain Names
+## 2. Domain Names
 
 A **domain name** is the human-readable address used to access a website.
 
@@ -162,7 +156,7 @@ So a domain name acts as a **human-friendly name for a network destination**.
 
 ---
 
-## Domain name structure
+### Domain name structure
 
 Consider:
 
@@ -184,13 +178,13 @@ www      . example . com
 
 ---
 
-# 3. Hosting
+## 3. Hosting
 
 A website needs somewhere to **live** so that people can access it over the Internet. This is where **web hosting** comes in.
 
 > Hosting is the service of providing the infrastructure needed to store and serve a website or web application. A hosting server provides an environment.
 
-```
+```text
              INTERNET
                  │
        ┌─────────┴─────────┐
@@ -215,13 +209,11 @@ A website needs somewhere to **live** so that people can access it over the Inte
 
 ---
 
-# 4. DNS
+## 4. DNS
 
 **DNS** stands for **Domain Name System**. DNS translates human-readable domain names into IP addresses that computers can use to locate servers.
 
-For example:
-
-```
+```text
 example.com
      │
      │ DNS lookup
@@ -233,11 +225,12 @@ Server
 ```
 
 Without DNS, we would frequently need to remember IP addresses instead of domain names.
+
 **DNS as the Internet's phonebook**
 
-## A simplified website request
+### A simplified website request
 
-```
+```text
 1. Browser receives:
        example.com
 
@@ -261,7 +254,7 @@ Without DNS, we would frequently need to remember IP addresses instead of domain
 
 ---
 
-# 5. Browsers
+## 5. Browsers
 
 A **web browser** is software used to access and interact with resources on the web. Examples include:
 
@@ -270,7 +263,7 @@ A **web browser** is software used to access and interact with resources on the 
 - Microsoft Edge
 - Safari
 
-A browser does much more than simply "display websites." It:
+A browser does much more than simply "display websites." It -
 
 1.  Sends requests to servers.
 2.  Receives resources.
@@ -283,7 +276,7 @@ A browser does much more than simply "display websites." It:
 
 A simplified picture:
 
-```
+```text
              Web Server
                  │
                  │
@@ -307,7 +300,7 @@ A simplified picture:
 
 ---
 
-# 6. What is SEO?
+## 6. What is SEO?
 
 **SEO** stands for **Search Engine Optimization**
 
@@ -330,8 +323,8 @@ SEO can involve:
 
 # 🔄 Putting Everything Together
 
-```
-                     YOU
+```text
+                     USER
                       │
                       │ Enter URL
                       ▼

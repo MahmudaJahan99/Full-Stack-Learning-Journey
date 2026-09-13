@@ -16,7 +16,7 @@ The `<html>` element is the **root element** of an HTML document. Everything exc
        └── <body>
 ```
 
-The `<html>` element contains the two major parts of an HTML document - head and body
+The `<html>` element contains the two major parts of an HTML document - head and body.
 
 ## The lang attribute
 
@@ -46,7 +46,7 @@ For Japanese:
 </html>
 ```
 
-### This information can be useful to:
+This information can be useful to:
 
 - screen readers
 - browsers

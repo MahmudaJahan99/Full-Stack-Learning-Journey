@@ -2,7 +2,7 @@
 
 The `<head>` element contains **metadata and other information about the HTML document**. The contents of `<head>` generally **aren't displayed** as normal webpage content.
 
-For example:
+Example:
 
 ```html
 <head>
@@ -11,6 +11,8 @@ For example:
   <title>My Website</title>
 </head>
 ```
+
+---
 
 ## What goes inside `<head>`?
 
@@ -45,7 +47,7 @@ The title may appear in places such as:
 
 The `<meta>` element provides **metadata about the HTML document**. Metadata is information about the webpage that isn't normally displayed as visible content.
 
-For example:
+Example:
 
 ```html
 <meta charset="UTF-8" />
@@ -85,8 +87,6 @@ The `<link>` element can also be used for other resources, such as a favicon:
 
 The `<style>` element is used to write **CSS directly inside the HTML document**.
 
-For example:
-
 ```html
 <head>
   <style>
@@ -107,7 +107,7 @@ The `<style>` element itself isn't displayed on the webpage. It contains CSS rul
 
 The <script> element is used to **include or write JavaScript**. JavaScript allows webpages to have dynamic behavior and respond to user interactions.
 
-For example:
+Example:
 
 ```html
 <script>
@@ -117,15 +117,15 @@ For example:
 <script src="script.js"></script>
 ```
 
-## `<head>` vs `<body>`
+---
 
-This distinction is extremely important.
+## `<head>` vs `<body>`
 
 `<head>` - Contains information about the document and resources/settings needed by the page.
 
 `<body>` - Contains the actual document content displayed to the user.
 
-```
+```text
                     HTML
                       │
              ┌────────┴────────┐
@@ -149,7 +149,7 @@ This distinction is extremely important.
                            └── JavaScript
 ```
 
-```
+```text
 <head>
     → Information and resources for the document
     → Usually not visible as page content

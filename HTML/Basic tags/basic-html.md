@@ -21,7 +21,7 @@ A standard HTML document can look like this:
 
 Structure visualization:
 
-```
+```text
                     HTML DOCUMENT
                          │
                          ▼

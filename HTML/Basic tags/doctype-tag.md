@@ -14,6 +14,6 @@ The DOCTYPE declaration helps the browser **render the document using standards 
 
 ## Where does it go?
 
-It should be the first thing in the HTML document:
+It should be the first thing in the HTML document.
 
 `<!DOCTYPE html>` tells the browser to interpret the document as modern HTML and use standards mode. It doesn't create an element and it doesn't appear on the webpage.
