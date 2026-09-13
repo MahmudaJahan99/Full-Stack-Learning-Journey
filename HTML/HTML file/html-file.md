@@ -2,9 +2,7 @@
 
 > An HTML document is simply a text file containing HTML markup. The file normally uses the **.html** extension.
 
-For example:
-
-index.html
+Example - index.html
 
 ```html
 <!DOCTYPE html>
@@ -20,6 +18,8 @@ index.html
   </body>
 </html>
 ```
+
+---
 
 ## Understanding HTML Tags
 
@@ -53,7 +53,7 @@ Together, the opening tag, content, and closing tag form an HTML element:
 <h1>
 ```
 
-or:
+or
 
 ```
 </h1>
@@ -79,8 +79,6 @@ Most familiar HTML elements have an **opening and closing tag**:
 
 However, some HTML elements don't wrap content.
 
-For example:
-
 ```html
 <img src="cat.jpg" alt="A cat" />
 ```
@@ -104,15 +102,7 @@ HTML elements can contain attributes. Attributes provide **additional informatio
 
 Example:
 
-```html
-<a href="https://example.com">
-  │ └──────────────┬──────────────┘ │ │ │ Attribute │ └── Element
-</a>
-```
-
-More specifically:
-
-```
+```text
 href = "https://example.com"
 │       └─────────────────┘
 │              │
@@ -127,7 +117,7 @@ The general form is:
 <tag attribute="value"></tag>
 ```
 
-An element can have multiple attributes:
+An element can have multiple attributes.
 
 ```html
 <a href="https://example.com" target="\_blank" title="Visit Example">
@@ -135,7 +125,7 @@ An element can have multiple attributes:
 </a>
 ```
 
-### Attribute values
+#### Attribute values
 
 Attribute values are generally written inside quotation marks. **Double quotes** are the conventional choice. **Single quotes** are also used. Both are valid in HTML, but be consistent with one style.
 
@@ -205,7 +195,7 @@ HTML character references commonly follow this pattern:
 
 For example:
 
-```
+```text
 &amp;
 │  ││
 │  │└── semicolon
@@ -224,8 +214,6 @@ Some can also use a numeric form:
 ## HTML Comments
 
 Comments allow developers to leave **notes inside HTML code that aren't displayed as part of the webpage**.
-
-HTML comments use:
 
 ```html
 <!-- This is a comment -->
@@ -267,9 +255,9 @@ HTML comments are sent to the browser as part of the HTML source Therefore, don'
 
 ## Whitespace
 
-Whitespace refers to **spaces, tabs, and line breaks** in your HTML source.
+Whitespace refers to **spaces, tabs, and line breaks** in HTML source.
 
-For example:
+Example:
 
 ```html
 <p>Hello World</p>
@@ -277,19 +265,12 @@ For example:
 
 and:
 
-```html
-<p>Hello World</p>
+```text
+<p>Hello      World</p>
 ```
 
 Both represent essentially the same paragraph. HTML generally collapses consecutive whitespace when rendering normal text.
-
-For example:
-
-```
-<p>Hello       World</p>
-```
-
-will generally be displayed as:
+They both will generally be displayed as:
 
 ```
 Hello World
@@ -305,7 +286,7 @@ Hello       World
 
 Consider:
 
-```
+```text
 <p>
     Hello
     World
@@ -314,7 +295,7 @@ Consider:
 
 The browser generally renders this as:
 
-```
+```text
 Hello World
 ```
 
@@ -363,7 +344,7 @@ The browser preserves the formatting inside `<pre>`.
 
 ---
 
-# 🧠 Putting Everything Together
+# Putting Everything Together
 
 Let's examine a small HTML document:
 
