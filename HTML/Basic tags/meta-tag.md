@@ -57,7 +57,7 @@ This provides a description of the page. Another example:
 
 
 ```html
-<meta name="author" content="Mahmuda" />
+<meta name="author" content="Jane" />
 ```
 
 This provides author information.

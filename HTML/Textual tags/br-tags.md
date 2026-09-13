@@ -6,8 +6,8 @@ Example
 
 ```html
 <p>
-  Mahmuda Jahan<br />
-  Dhaka, Bangladesh<br />
+  Jane Doe<br />
+  Noland, Nowhere<br />
   Frontend Developer
 </p>
 ```

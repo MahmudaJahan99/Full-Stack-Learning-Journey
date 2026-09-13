@@ -44,7 +44,7 @@ For displaying source code, `<pre>` is often combined with `<code>`:
 ```html
 <pre>
     <code>
-        const name = "Mahmuda";
+        const name = "Jane";
         console.log(name);
     </code>
 </pre>

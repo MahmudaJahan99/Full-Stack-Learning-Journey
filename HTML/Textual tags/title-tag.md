@@ -20,7 +20,7 @@ The title usually appears in:
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Mahmuda's Portfolio</title>
+    <title>Jane's Portfolio</title>
   </head>
 
   <body>
@@ -38,7 +38,7 @@ Browser/document title
         │
         ▼
 ┌───────────────────────────┐
-│ Mahmuda's Portfolio    ×  │ ← Browser tab
+│ Jane's Portfolio    ×  │ ← Browser tab
 └───────────────────────────┘
 
 
