@@ -2,11 +2,9 @@
 
 A **markup language** is a system for adding annotations, or **"markup"**, to content so that a computer can understand the **structure, meaning, or presentation** of that content.
 
-The important word here is **markup**.
-
 Markup doesn't usually perform calculations or make decisions like a programming language does. Instead, it **describes information**.
 
-## Example
+Example:
 
 Suppose we have this text:
 
@@ -34,23 +32,17 @@ But plain text doesn't explicitly communicate that structure to a computer. With
 <h2>My Projects</h2>
 ```
 
-Now the browser can understand the role of each piece of content.
-
-So, we can think of **markup as labels attached to content**.
+Now the browser can understand the role of each piece of content. So, we can think of **markup as labels attached to content**.
 
 ---
 
-# HTML is a Markup Language
+## HTML is a Markup Language
 
-**HTML** stands for:
+**HTML** stands for **HyperText Markup Language**. The **"ML"** in HTML stands for **Markup Language**.
 
-> **HyperText Markup Language**
+> HTML uses **elements** to describe the **structure and meaning of content**.
 
-The **"ML"** in HTML stands for **Markup Language**.
-
-HTML uses **elements** to describe the **structure and meaning of content**.
-
-For example:
+Example:
 
 ```html
 <h1>Hello World</h1>

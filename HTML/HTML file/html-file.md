@@ -367,7 +367,7 @@ Let's examine a small HTML document:
 </html>
 ```
 
-```
+```text
 <!DOCTYPE html>
        │
        └── Document declaration

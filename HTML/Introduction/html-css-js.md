@@ -20,7 +20,7 @@ HTML doesn't exist by itself in modern frontend development. A typical frontend 
 
 HTML describes **what is on the webpage**.
 
-For example:
+Example:
 
 ```html
 <h1>My Portfolio</h1>
@@ -51,7 +51,7 @@ CSS is responsible for things such as:
 - Animations
 - Responsive design
 
-For example:
+Example:
 
 ```css
 h1 {
@@ -66,7 +66,7 @@ h1 {
 
 JavaScript adds **behaviour and interactivity** to a webpage.
 
-For example:
+Example:
 
 ```javascript
 const button = document.querySelector("#helloBtn");
@@ -80,9 +80,7 @@ button.addEventListener("click", () => {
 
 ## ⚠️ Important Distinction
 
-HTML, CSS, and JavaScript are **not three competing ways of doing the same thing**.
-
-They solve **different problems**.
+HTML, CSS, and JavaScript are **not three competing ways of doing the same thing**. They solve **different problems**.
 
 | Technology     | Main Responsibility       |
 | -------------- | ------------------------- |
