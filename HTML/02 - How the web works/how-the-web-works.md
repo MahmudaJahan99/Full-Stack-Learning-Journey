@@ -27,7 +27,7 @@ What actually happens when we type a website address into our browser? A simplif
           Web Page
 ```
 
-There are several concepts involved in this process:
+There are several concepts involved in this process.
 
 ```
 How the Web Works
@@ -44,9 +44,7 @@ How the Web Works
 
 ## 1. What is HTTP?
 
-**HTTP** stands for **HyperText Transfer Protocol** HTTP is a protocol used for communication between a **client** and a **server** on the web.
-
-> HTTP defines how requests and responses are exchanged between web clients and servers.
+> **HTTP** stands for **HyperText Transfer Protocol** HTTP is a protocol used for communication between a **client** and a **server** on the web. It defines how requests and responses are exchanged.
 
 ```text
 CLIENT                              SERVER
@@ -67,9 +65,9 @@ CLIENT                              SERVER
    Display page                         │
 ```
 
-## HTTP Request
+### HTTP Request
 
-When your browser wants something from a server, it sends an **HTTP request**.
+When browser wants something from a server, it sends an **HTTP request**.
 
 Example:
 
@@ -97,8 +95,6 @@ The response can contain the requested HTML. The browser then processes the resp
     </body>
 </html>
 ```
-
----
 
 ### HTTP Methods
 
@@ -135,7 +131,7 @@ Computers communicate using IP addresses, which look something like:
 142.250.72.14
 ```
 
-Remembering IP addresses for every website would be inconvenient. Instead, we use domain names.
+Remembering IP addresses for every website would be inconvenient. Instead, we use domain names. So a domain name acts as a **human-friendly name for a network destination**.
 
 ```
 Human
@@ -152,17 +148,9 @@ google.com
 Server
 ```
 
-So a domain name acts as a **human-friendly name for a network destination**.
-
----
-
 ### Domain name structure
 
-Consider:
-
-```
-www.example.com
-```
+Consider `www.example.com`
 
 It can be broken down into:
 
@@ -211,7 +199,7 @@ A website needs somewhere to **live** so that people can access it over the Inte
 
 ## 4. DNS
 
-**DNS** stands for **Domain Name System**. DNS translates human-readable domain names into IP addresses that computers can use to locate servers.
+> **DNS** stands for **Domain Name System**. DNS translates human-readable domain names into IP addresses that computers can use to locate servers.
 
 ```text
 example.com
@@ -224,9 +212,7 @@ example.com
 Server
 ```
 
-Without DNS, we would frequently need to remember IP addresses instead of domain names.
-
-**DNS as the Internet's phonebook**
+Without DNS, we would frequently need to remember IP addresses instead of domain names. **DNS as the Internet's phonebook**
 
 ### A simplified website request
 
@@ -302,9 +288,7 @@ A simplified picture:
 
 ## 6. What is SEO?
 
-**SEO** stands for **Search Engine Optimization**
-
-> SEO is the practice of improving a website so that search engines can better **discover, understand, and present** its content to users.
+> **SEO** stands for **Search Engine Optimization**. SEO is the practice of improving a website so that search engines can better **discover, understand, and present** its content to users.
 
 SEO can involve:
 
@@ -321,7 +305,7 @@ SEO can involve:
 
 ---
 
-# 🔄 Putting Everything Together
+# 🧠 Putting Everything Together
 
 ```text
                      USER
