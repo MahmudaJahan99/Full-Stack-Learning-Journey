@@ -30,17 +30,13 @@ Example:
 <button>Contact Me</button>
 ```
 
-HTML tells the browser:
-
-> There is a heading, a paragraph, and a button.
+HTML tells the browser that there is a heading, a paragraph, and a button.
 
 ---
 
 ## CSS — Presentation
 
-CSS stands for **Cascading Style Sheets**. CSS controls how HTML content **looks**.
-
-CSS is responsible for things such as:
+CSS stands for **Cascading Style Sheets**. CSS controls how HTML content **looks**. CSS is responsible for things such as:
 
 - Colors
 - Fonts
