@@ -16,8 +16,6 @@ The basic structure is:
    └── Anchor element
 ```
 
----
-
 ## Basic Link
 
 ```html
@@ -25,8 +23,6 @@ The basic structure is:
 ```
 
 The text between the opening and closing tags is the **link text**.
-
----
 
 ## The `href` Attribute
 
@@ -52,8 +48,6 @@ Without `href`:
 
 the element is not a normal functioning hyperlink to a destination.
 
----
-
 ## Absolute URLs
 
 An absolute URL contains the complete web address. Useful when linking to another website.
@@ -61,8 +55,6 @@ An absolute URL contains the complete web address. Useful when linking to anothe
 ```html
 <a href="https://www.example.com/about"> About </a>
 ```
-
----
 
 ## Relative URLs
 
@@ -85,8 +77,6 @@ You can write:
 ```
 
 The browser interprets these relative to the current page.
-
----
 
 ## Linking to a Section of the Same Page
 
@@ -112,8 +102,6 @@ Find id="projects"
   ▼
 <h2 id="projects">
 ```
-
----
 
 ## Opening a Link in a New Tab
 

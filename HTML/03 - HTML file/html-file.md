@@ -2,7 +2,7 @@
 
 > An HTML document is simply a text file containing HTML markup. The file normally uses the **.html** extension.
 
-Example - index.html
+Example - _index.html_
 
 ```html
 <!DOCTYPE html>
@@ -23,15 +23,11 @@ Example - index.html
 
 ## Understanding HTML Tags
 
-HTML uses tags to mark up content.
-
-Consider:
+HTML uses tags to mark up content. Together, the opening tag, content, and closing tag form an HTML element.
 
 ```html
 <h1>Hello World</h1>
 ```
-
-Together, the opening tag, content, and closing tag form an HTML element:
 
 ```
 ┌─────────────────────────────────┐
@@ -50,13 +46,13 @@ Together, the opening tag, content, and closing tag form an HTML element:
 **Tag** - A tag is the markup itself.
 
 ```
-<h1>
-```
-
-or
-
-```
-</h1>
+┌─────────────────────────────────┐
+│ <h1> Hello World </h1>          │
+│└─┬─┘             └─┬─┘          │
+│  │                 │            │
+│opening          closing         │
+│ tag               tag           │
+└─────────────────────────────────┘
 ```
 
 **Element** - An element consists of the complete structure.
@@ -100,6 +96,12 @@ Examples include:
 
 HTML elements can contain attributes. Attributes provide **additional information** about an element or **modify its behaviour**.
 
+The general form is:
+
+```html
+<tag attribute="value"></tag>
+```
+
 Example:
 
 ```text
@@ -109,12 +111,6 @@ href = "https://example.com"
 │           value
 │
 └── attribute name
-```
-
-The general form is:
-
-```html
-<tag attribute="value"></tag>
 ```
 
 An element can have multiple attributes.
@@ -129,8 +125,8 @@ An element can have multiple attributes.
 
 Attribute values are generally written inside quotation marks. **Double quotes** are the conventional choice. **Single quotes** are also used. Both are valid in HTML, but be consistent with one style.
 
-```html
-<img src="cat.jpg" />
+```
+<img src='cat.jpg' />
 
 or
 
@@ -145,8 +141,8 @@ HTML is generally **case-insensitive** when interpreting element and attribute n
 
 For example, browsers will generally interpret these as the same element:
 
-```html
-<p>Hello</p>
+```
+<p>Hello</P>
 <P>Hello</P>
 <P>HELLO</p>
 ```
@@ -187,7 +183,7 @@ Here are some useful character references:
 | ®         | &reg;    | Registered trademark  |
 | `&nbsp;`  | `&nbsp;` | Non-breaking space    |
 
-### Entity structure
+#### Entity structure
 
 HTML character references commonly follow this pattern:
 
@@ -344,7 +340,7 @@ The browser preserves the formatting inside `<pre>`.
 
 ---
 
-# Putting Everything Together
+# 🧠 Putting Everything Together
 
 Let's examine a small HTML document:
 

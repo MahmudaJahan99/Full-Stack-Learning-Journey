@@ -32,7 +32,7 @@ For example:
 data-user-id data-product-id data-category data-theme data-status
 ```
 
----
+
 
 ## Why Do We Need Data Attributes?
 
@@ -66,7 +66,7 @@ Mouse     → product ID: 103
 
 JavaScript can later read this information.
 
----
+
 
 ## Naming Data Attributes
 

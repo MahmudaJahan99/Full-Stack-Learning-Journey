@@ -18,8 +18,6 @@ Useful for:
 - Mathematical notation
 - Scientific notation
 
----
-
 ## `<sup>` — Superscript
 
 `<sup>` displays text slightly above the normal text line.

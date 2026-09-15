@@ -189,7 +189,7 @@ A well-structured document might look like gives both users and assistive techno
 
 ---
 
-### A simple rule to remember
+### 🧠 A simple rule to remember
 
 ```text
 <h1> → Main topic
@@ -200,4 +200,4 @@ A well-structured document might look like gives both users and assistive techno
 <h6> → Most detailed subsection
 ```
 
-**Don't skip heading levels just for styling.** Ideally, the heading structure should reflect the logical organization of your content.
+🚨 **Don't skip heading levels just for styling.** Ideally, the heading structure should reflect the logical organization of your content.

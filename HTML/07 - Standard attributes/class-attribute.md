@@ -12,8 +12,6 @@ Example
 
 Both elements belong to the `highlight` class.
 
----
-
 ## Why Use `class`?
 
 Classes are commonly used to:
@@ -39,20 +37,7 @@ All three buttons can share the same CSS:
 }
 ```
 
----
-
-## `class` vs `id`
-
-| `id`                                    | `class`                 |
-| --------------------------------------- | ----------------------- |
-| Identifies a specific element           | Groups elements         |
-| Intended to be unique within a document | Can be reused           |
-| CSS selector uses `#`                   | CSS selector uses `.`   |
-| Example: `id="header"`                  | Example: `class="card"` |
-
----
-
-### An Element Can Have Multiple Classes
+## An Element Can Have Multiple Classes
 
 An element can belong to more than one class. Classes are separated by spaces.
 
@@ -64,3 +49,14 @@ class="button primary large"
 ```
 
 This element has three classes: _button_, _primary_, and _large_
+
+---
+
+## `class` vs `id`
+
+| `id`                                    | `class`                 |
+| --------------------------------------- | ----------------------- |
+| Identifies a specific element           | Groups elements         |
+| Intended to be unique within a document | Can be reused           |
+| CSS selector uses `#`                   | CSS selector uses `.`   |
+| Example: `id="header"`                  | Example: `class="card"` |

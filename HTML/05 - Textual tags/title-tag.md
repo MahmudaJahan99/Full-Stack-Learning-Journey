@@ -14,7 +14,7 @@ The title usually appears in:
 - Bookmarks
 - Search engine results
 
-## Example
+Example:
 
 ```html
 <!DOCTYPE html>

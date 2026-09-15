@@ -8,8 +8,6 @@ The `style` attribute allows you to apply **CSS directly to an individual HTML e
 
 The HTML element contains both content and styling information.
 
----
-
 ## Multiple CSS Properties
 
 You can place multiple CSS declarations inside `style`. Each declaration is separated by a semicolon.
@@ -17,8 +15,6 @@ You can place multiple CSS declarations inside `style`. Each declaration is sepa
 ```html
 <p style="color: blue; font-size: 20px;">Hello World!</p>
 ```
-
----
 
 ### Why Is Inline CSS Usually Not Preferred?
 

@@ -8,8 +8,6 @@ The `id` attribute gives an element a **unique identifier**.
 
 The element now has the identifier: _intro_
 
----
-
 ## Why Use `id`?
 
 An `id` can be used to identify a **specific element**.

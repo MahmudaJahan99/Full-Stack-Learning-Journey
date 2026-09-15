@@ -16,7 +16,7 @@ The general syntax is:
 <element attribute="value"></element>
 ```
 
-Attributes give us a way to **identify, classify, store custom information about, or style HTML elements**.
+> Attributes give us a way to **identify, classify, store custom information about, or style HTML elements**.
 
 ---
 
