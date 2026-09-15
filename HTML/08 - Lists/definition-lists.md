@@ -43,8 +43,6 @@ JavaScript
     A programming language used to add behavior...
 ```
 
----
-
 ## `<dl>` — Description List, `<dt>` — Description Term, and `<dd>` — Description
 
 `<dl>` represents the **entire description list**.

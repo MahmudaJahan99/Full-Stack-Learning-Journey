@@ -93,7 +93,7 @@ Mental model:
 
 ## `<img>` vs `<figure>`
 
-## `<img>`
+### `<img>`
 
 Use `<img>` when you simply need to embed an image. The image itself is the content.
 
@@ -101,7 +101,7 @@ Use `<img>` when you simply need to embed an image. The image itself is the cont
 <img src="profile.jpg" alt="Portrait of Jane" />
 ```
 
-## `<figure>`
+### `<figure>`
 
 `<figure>` represents **self-contained content** that can be moved away from the surrounding content without losing its meaning. It can contain:
 
@@ -122,7 +122,7 @@ Example:
 </figure>
 ```
 
-### `<figcaption>`
+#### `<figcaption>`
 
 `<figcaption>` provides a caption or explanation for the `<figure>`.
 
@@ -137,10 +137,6 @@ The actual image
    ↓
 Information about the image
 ```
-
----
-
-## `<img>` vs `<figure>`
 
 | `<img>`                              | `<figure>`                                              |
 | ------------------------------------ | ------------------------------------------------------- |

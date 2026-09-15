@@ -1,6 +1,6 @@
 # Lists and Types
 
-Lists are used to group related pieces of information into a structured collection. Instead of writing related information as separate paragraphs we can tell the browser that these items belong to the same list.
+Lists are used to **group related pieces of information** into a structured collection. Instead of writing related information as separate paragraphs we can tell the browser that these items belong to the same list.
 
 HTML provides three main types of lists:
 

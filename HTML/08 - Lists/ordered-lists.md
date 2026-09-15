@@ -37,8 +37,6 @@ For example, a recipe:
 </ol>
 ```
 
----
-
 ## `<ol>` vs `<li>`
 
 These two elements have different responsibilities. `<ol>` defines the **type of list**. `<li>` defines an **individual list item**.

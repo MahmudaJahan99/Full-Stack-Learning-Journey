@@ -12,8 +12,6 @@ Examples of data that naturally belongs in a table:
 - Invoices
 - Comparison data
 
----
-
 ## What is an HTML Table?
 
 An HTML table is a collection of:
@@ -100,8 +98,6 @@ Example:
 </table>
 ```
 
----
-
 ### `<tr>` — Table Row
 
 `<tr>` means **Table Row**. It represents one horizontal row in the table.
@@ -140,8 +136,6 @@ Visual representation:
 
 Every row is represented by a `<tr>`.
 
----
-
 ### `<th>` — Table Header Cell
 
 `<th>` means **Table Header**. It represents a cell containing a heading for a column or row.
@@ -165,8 +159,6 @@ Country  → heading
 ```
 
 > Use `<th>` instead of `<td>` because `<th>` communicates the **meaning** of the content. This is particularly important for **accessibility**.
-
----
 
 ### `<td>` — Table Data Cell
 
@@ -345,8 +337,6 @@ Visual idea:
 └──────────────┴────────┴─────────┘
 ```
 
----
-
 ## `rowspan`
 
 `rowspan` allows a cell to cover multiple rows.
@@ -380,8 +370,6 @@ Visual idea:
 │          │ CSS      │
 └──────────┴──────────┘
 ```
-
----
 
 ## `scope` — Connecting Headers to Data
 
