@@ -162,7 +162,7 @@ Lowercase HTML:
 
 Sometimes we need to display characters that have a special meaning in HTML. HTML provides character references, commonly called **HTML entities**, to represent such characters safely.
 
-For example:
+Example:
 
 ```html
 &lt; represents <
@@ -189,7 +189,7 @@ HTML character references commonly follow this pattern:
 
 `& + name + ;`
 
-For example:
+Example:
 
 ```text
 &amp;

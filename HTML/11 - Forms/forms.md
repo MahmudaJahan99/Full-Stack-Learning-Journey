@@ -88,7 +88,7 @@ and:
 
 GET places form data into the URL.
 
-For example:
+Example:
 
 ```text
 /search?query=html

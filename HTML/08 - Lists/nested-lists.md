@@ -2,7 +2,7 @@
 
 A **nested list** is a list placed inside another list. This is useful when information has multiple levels of hierarchy.
 
-For example:
+Example:
 
 ```html
 <ul>
@@ -92,7 +92,7 @@ Conceptually:
 
 ## Mixing Ordered and Unordered Lists
 
-For example:
+Example:
 
 ```html
 <ol>
@@ -136,7 +136,7 @@ This is useful when the **outer relationship has an order**, while the items ins
 
 There is no requirement that a nested list only have one additional level.
 
-For example:
+Example:
 
 ```html
 <ul>

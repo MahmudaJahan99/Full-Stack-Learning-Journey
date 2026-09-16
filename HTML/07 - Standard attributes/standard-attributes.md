@@ -24,7 +24,7 @@ The general syntax is:
 
 An attribute is additional information placed inside an HTML element's opening tag.
 
-For example:
+Example:
 
 ```html
 <h1 id="main-title" class="heading">My Website</h1>

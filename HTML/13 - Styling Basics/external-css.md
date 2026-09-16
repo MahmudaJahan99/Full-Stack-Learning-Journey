@@ -88,7 +88,7 @@ This tells the browser where the stylesheet is located.
 
 CSS files don't have to sit beside the HTML file. The `href` is the path to the stylesheet.
 
-For example:
+Example:
 
 ```text
 my-website/

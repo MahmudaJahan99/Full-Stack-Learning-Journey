@@ -64,7 +64,7 @@ HTML
 
 Despite its name, `<address>` is **not simply a tag for writing a postal address**. It represents contact information for the nearest article or the document.
 
-For example:
+Example:
 
 ```html
 <address>

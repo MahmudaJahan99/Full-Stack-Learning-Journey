@@ -26,7 +26,7 @@ The name must begin with:
 data-
 ```
 
-For example:
+Example:
 
 ```html
 data-user-id data-product-id data-category data-theme data-status

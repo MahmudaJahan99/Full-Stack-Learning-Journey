@@ -21,7 +21,7 @@ Classes are commonly used to:
 - Identify elements for JavaScript
 - Represent a reusable type/category
 
-For example:
+Example:
 
 ```html
 <button class="button">Save</button>

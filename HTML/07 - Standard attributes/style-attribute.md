@@ -20,7 +20,7 @@ We can place multiple CSS declarations inside `style`. Each declaration is separ
 
 Although `style` is useful, generally large amounts of CSS directly inside HTML is not preferred.
 
-For example:
+Example:
 
 ```html
 <div

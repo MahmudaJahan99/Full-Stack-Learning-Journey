@@ -12,7 +12,7 @@ The element now has the identifier: _intro_
 
 An `id` can be used to identify a **specific element**.
 
-For example:
+Example:
 
 ```html
 <h1 id="main-heading">My Portfolio</h1>

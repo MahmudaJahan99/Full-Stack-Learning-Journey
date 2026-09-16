@@ -2,7 +2,7 @@
 
 Textual tags are HTML elements used to display, organize, emphasize, or format text on a webpage. They help the browser understand **what a piece of text represents**, not just how it should look.
 
-For example:
+Example:
 
 ```html
 <h1>My Website</h1>
