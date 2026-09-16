@@ -95,7 +95,7 @@ Mental model:
 
 ### `<img>`
 
-Use `<img>` when you simply need to embed an image. The image itself is the content.
+Use `<img>` when we simply need to embed an image. The image itself is the content.
 
 ```html
 <img src="profile.jpg" alt="Portrait of Jane" />

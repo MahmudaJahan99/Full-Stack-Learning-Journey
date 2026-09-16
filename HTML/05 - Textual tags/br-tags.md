@@ -14,6 +14,6 @@ Example
 
 ## `<br>` vs `<p>`
 
-Use `<p>` when you have **separate paragraphs**.
+Use `<p>`for **separate paragraphs**.
 
-Use `<br>` when you need a **line break within the same piece of content**.
+Use `<br>`when a **line break within the same piece of content** is needed.

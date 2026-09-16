@@ -58,9 +58,9 @@ An absolute URL contains the complete web address. Useful when linking to anothe
 
 ## Relative URLs
 
-A relative URL points to another resource within your own website.
+A relative URL points to another resource within the website itself.
 
-Suppose your project looks like this:
+Suppose a project looks like this:
 
 ```text
 website/
@@ -70,7 +70,7 @@ website/
 └── contact.html
 ```
 
-You can write:
+One can write:
 
 ```html
 <a href="about.html">About</a> <a href="contact.html">Contact</a>
@@ -80,7 +80,7 @@ The browser interprets these relative to the current page.
 
 ## Linking to a Section of the Same Page
 
-You can link to an element using its `id`.
+One can link to an element using its `id`.
 
 ```html
 <a href="#projects">Go to Projects</a>
@@ -105,7 +105,7 @@ Find id="projects"
 
 ## Opening a Link in a New Tab
 
-You can use the `target` attribute:
+One can use the `target` attribute:
 
 ```html
 <a href="https://example.com" target="_blank"> Visit Example </a>

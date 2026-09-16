@@ -48,7 +48,7 @@ When nesting a list, the nested `<ul>` or `<ol>` should be placed **inside the r
 
 ## Nested Ordered Lists
 
-Nested lists don't have to be unordered. You can place an ordered list inside an ordered list:
+Nested lists don't have to be unordered. We can place an ordered list inside an ordered list:
 
 ```html
 <ol>

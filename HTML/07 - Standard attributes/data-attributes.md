@@ -36,9 +36,9 @@ data-user-id data-product-id data-category data-theme data-status
 
 ## Why Do We Need Data Attributes?
 
-Imagine you're building an online store.
+Imagine building an online store.
 
-You display several products:
+We display several products:
 
 ```html
 <div class="product" data-product-id="101">Laptop</div>

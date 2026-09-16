@@ -90,7 +90,7 @@ II. HTML
 III. CSS
 ```
 
-> In modern development, CSS is generally preferred when you want to customize the visual appearance of list markers.
+> In modern development, CSS is generally preferred when we want to customize the visual appearance of list markers.
 
 ---
 

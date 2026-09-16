@@ -30,7 +30,7 @@ the browser may have no visible way for the user to play the audio.
 
 ## `<source>`
 
-Instead of putting the audio URL directly on `<audio>`, you can provide multiple formats. The browser can choose a supported source.
+Instead of putting the audio URL directly on `<audio>`, we can provide multiple formats. The browser can choose a supported source.
 
 ```html
 <audio controls>

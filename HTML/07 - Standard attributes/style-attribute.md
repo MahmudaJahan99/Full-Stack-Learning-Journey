@@ -1,6 +1,6 @@
 # `style`
 
-The `style` attribute allows you to apply **CSS directly to an individual HTML element**. This is called **inline CSS**.
+The `style` attribute allows to apply **CSS directly to an individual HTML element**. This is called **inline CSS**.
 
 ```html
 <p style="color: blue;">Hello World!</p>
@@ -10,7 +10,7 @@ The HTML element contains both content and styling information.
 
 ## Multiple CSS Properties
 
-You can place multiple CSS declarations inside `style`. Each declaration is separated by a semicolon.
+We can place multiple CSS declarations inside `style`. Each declaration is separated by a semicolon.
 
 ```html
 <p style="color: blue; font-size: 20px;">Hello World!</p>
