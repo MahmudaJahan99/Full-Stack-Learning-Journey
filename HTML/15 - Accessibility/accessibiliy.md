@@ -88,7 +88,7 @@ The `for` attribute connects the label to the input's `id`. This makes the form 
 
 Users should be able to navigate and operate important parts of a website using a keyboard.
 
-For example:
+Example:
 
 ```text
 Tab → Move between interactive elements
