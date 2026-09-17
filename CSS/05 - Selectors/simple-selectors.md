@@ -160,6 +160,8 @@ p {
 
 One rule applies to all three selectors.
 
+---
+
 ## Quick Summary
 
 Selectors are basically used to select elements from HTML for styling.
