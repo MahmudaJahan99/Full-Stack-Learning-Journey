@@ -36,7 +36,7 @@ selector {
 
 Example:
 
-```css id="h6m3yp"
+```css
 .box {
   border: 2px solid black;
 }
@@ -155,7 +155,7 @@ A larger value creates more rounded corners
 
 Border is one of the parts of the CSS Box Model. Therefore, with the default, the border contributes to the element's total size.
 
-```text id="k7p3mz"
+```text
 ┌─────────────────────────┐
 │         BORDER          │
 │   ┌─────────────────┐   │
@@ -260,7 +260,7 @@ One of the most important uses of `outline` is showing which interactive element
 
 For example:
 
-```css id="q9m4xz"
+```css
 button:focus {
   outline: 3px solid blue;
 }

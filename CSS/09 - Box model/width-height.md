@@ -28,7 +28,7 @@ Example:
 
 The element's width is set to `300px`.
 
-```text id="c6v3yt"
+```text
         ←──── 300px ────→
 
        ┌─────────────────┐
@@ -151,7 +151,7 @@ With `box-sizing: border-box;`, the declared width includes _Content_, _Padding_
 
 Example:
 
-```css id="v6p2kc"
+```css
 .box {
   width: 300px;
   padding: 20px;
