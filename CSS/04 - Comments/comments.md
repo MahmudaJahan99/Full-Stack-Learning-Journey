@@ -115,4 +115,4 @@ Comments can make large stylesheets easier to navigate.
 }
 ```
 
-This allows you to test how the page looks without the `box-shadow`.
+This allows to test how the page looks without the `box-shadow`.

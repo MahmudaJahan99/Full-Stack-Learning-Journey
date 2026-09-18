@@ -113,7 +113,7 @@ We can write:
 
 ### Border on Individual Sides
 
-You can style each side independently.
+Each side can be styled independently.
 
 ```css
 .box {

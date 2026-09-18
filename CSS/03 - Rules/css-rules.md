@@ -130,7 +130,7 @@ The curly braces `{ }` contain the declarations that will be applied to the sele
 
 ## Property
 
-A **CSS property** specifies **what aspect of an element you want to change**.
+A **CSS property** specifies **what aspect of an element we want to change**.
 
 Examples include:
 
