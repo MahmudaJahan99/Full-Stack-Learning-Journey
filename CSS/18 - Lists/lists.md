@@ -146,7 +146,7 @@ li::marker {
 #### `::marker` vs `list-style-type`
 
 `list-style-type` - Controls **what kind of marker** is used:
-`::marker` - Allows you to style the marker:
+`::marker` - Allows to style the marker:
 
 ### `list-style` Shorthand
 

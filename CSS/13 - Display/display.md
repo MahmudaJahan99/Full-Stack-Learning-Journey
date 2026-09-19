@@ -28,7 +28,7 @@ Each block normally occupies its own line.
 └────────────────────────────────────┘
 ```
 
-Block elements normally allow you to control `width`, `height`, `margin`, and `padding`.
+Block elements normally allows to control `width`, `height`, `margin`, and `padding`.
 A block element can have a specified width. If no width is specified, a block element generally stretches to fill the available width of its containing block.
 For example:
 
