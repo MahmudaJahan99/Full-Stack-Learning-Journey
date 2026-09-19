@@ -161,7 +161,7 @@ ul {
 
 we can write:
 
-```css id="p2k9s4"
+```css
 ul {
   list-style: square inside;
 }
