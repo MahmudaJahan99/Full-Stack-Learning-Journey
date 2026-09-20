@@ -13,7 +13,7 @@ For example:
   </tr>
 
   <tr>
-    <td>Mahmuda</td>
+    <td>Jane</td>
     <td>26</td>
     <td>Dhaka</td>
   </tr>
@@ -57,7 +57,7 @@ This creates borders around the table and its cells.
 ┌───────────┬──────────┬──────────┐
 │   Name    │   Age    │   City   │
 ├───────────┼──────────┼──────────┤
-│  Mahmuda  │   26     │  Dhaka   │
+│  Jane     │   26     │  Dhaka   │
 └───────────┴──────────┴──────────┘
 ```
 
